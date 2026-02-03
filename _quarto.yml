@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - images/**
 
 website:
   title: ""
-  favicon: images/prototyping-favicon.png
+  favicon: images/favicon.ico
   navbar:
     background: primary
     left:
@@ -14,8 +16,12 @@ website:
         text: About
       - text: Projects
         menu:
+          - href: projects/project-0.qmd
+            text: The Trucking School
           - href: projects/project-1.qmd
-            text: Name of my first app
+            text: CDL Dashboard
+      - href: problems.qmd
+        text: Problems I'm Exploring
           #- href: projects/project-2.qmd
           #  text: Business Case Presentation
           #- href: projects/project-3.qmd

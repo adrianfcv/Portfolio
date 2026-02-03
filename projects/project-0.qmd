@@ -1,0 +1,166 @@
+---
+title: "The Trucking School"
+---
+
+<style>
+/* ── TTS brand colors ── */
+/* Red: #D42B2B  |  Dark: #1A1A1A  |  White: #FFFFFF  |  Off-white: #F9F6F6 */
+
+.tts-hero {
+  text-align: center;
+  padding: 3rem 2rem 2.5rem;
+  background: linear-gradient(160deg, #1A1A1A 0%, #2D2D2D 50%, #D42B2B 100%);
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 20px rgba(26, 26, 26, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.tts-hero::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -8%;
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.tts-hero img {
+  max-width: 180px;
+  margin-bottom: 1.25rem;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255,255,255,0.95);
+  padding: 12px;
+}
+
+.tts-hero h1 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.tts-hero p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.tts-hero .tts-link {
+  display: inline-block;
+  padding: 0.45rem 1.25rem;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background: rgba(255,255,255,0.08);
+  transition: all 0.2s ease;
+}
+
+.tts-hero .tts-link:hover {
+  background: rgba(255,255,255,0.18);
+  border-color: #ffffff;
+  text-decoration: none;
+}
+
+/* Section styling */
+.tts-section {
+  background: #ffffff;
+  border: 1px solid #e8e0e0;
+  border-left: 4px solid #D42B2B;
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.tts-section h3 {
+  color: #1A1A1A;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.tts-section ul {
+  margin-bottom: 0;
+}
+
+.tts-section li {
+  color: #333;
+}
+
+.tts-highlight {
+  display: inline-block;
+  background: #FDF0F0;
+  color: #D42B2B;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+</style>
+
+::: {.tts-hero}
+
+<img src="../images/tts-logo.jpg" alt="The Trucking School Logo">
+
+# The Trucking School
+
+<p>Hands-on CDL training for real-world careers</p>
+
+<a href="https://www.the-trucking-school.com" class="tts-link" target="_blank"><i class="fas fa-globe"></i> Visit Website</a>
+
+:::
+
+## Business Overview
+
+The Trucking School is a CDL training business dedicated to preparing students for real careers in the trucking industry through hands-on instruction and practical, job-ready education. The school focuses on helping individuals gain the skills, confidence, and knowledge needed to successfully enter a high-demand field with clear career pathways.
+
+::: {.tts-section}
+
+### The Problem
+
+The business addresses a common challenge in driver training: many programs focus on testing rather than real-world readiness. Students often complete programs without the practical experience needed to perform confidently on the job.
+
+:::
+
+::: {.tts-section}
+
+### The Approach
+
+The Trucking School emphasizes what matters most for career success:
+
+- **Practical driving experience** — real seat time behind the wheel, not just classroom theory
+- **Safety-first instruction** — building habits that protect drivers and the public
+- **Structured curriculum** — training that reflects actual industry expectations and standards
+- **Regulatory compliance** — ensuring students meet all CDL licensing requirements
+
+:::
+
+::: {.tts-section}
+
+### Who It Serves
+
+- <span class="tts-highlight">Career changers</span> looking to enter a stable, high-demand industry
+- <span class="tts-highlight">Entry-level drivers</span> seeking their first CDL credential
+- <span class="tts-highlight">Individuals</span> pursuing long-term, reliable employment with clear growth pathways
+
+:::
+
+::: {.tts-section}
+
+### Looking Ahead
+
+The Trucking School is focused on sustainable growth through improved systems, operational efficiency, and strategic partnerships. The long-term goal is to scale the business while maintaining training quality, compliance, and a strong student experience.
+
+:::
+
+---
+
+**Role:** Founder & Operator | **Industry:** Transportation & Education | **Website:** [the-trucking-school.com](https://www.the-trucking-school.com){target="_blank"}

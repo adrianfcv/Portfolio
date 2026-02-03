@@ -4,14 +4,14 @@ title: "About Me"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="250">
 
-<h1>Your Name</h1>
+<h1>Adrian Felix Choquevillca</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://linkedin.com/in/adrian-choquevillca" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/adrianfcv?tab=repositories" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -19,45 +19,33 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+I have a background that combines engineering problem-solving with business strategy, which drives my passion for product management. I enjoy understanding real user problems, turning ambiguity into clear decisions, and working across teams to build practical, scalable solutions. What motivates me most is creating products that deliver real value by aligning user needs, technical execution, and business impact.
 
 ### Education
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+- **Degree Name**, Manufacturing Engineering, BYU
+- **Degree Name**, MBA, BYU
 
 ### Experience
 
-#### Job/Internship Title - Company Name
-*Dates*
+#### Founder - The Trucking School
+*2023 to Present*
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+- Founded and scaled a CDL training business, overseeing day-to-day operations, curriculum development, instructor management, and regulatory compliance
+- Drove student enrollment and revenue growth through targeted digital marketing and strategic partnerships
+- Leveraged business development, operations management, CRM systems, and customer acquisition strategies to build efficient processes and deliver consistent training outcomes
 
-#### Another Position - Company Name
-*Dates*
+#### Founder - CDL Classroom
+*2025 to Present*
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+- Founded CDL Classroom, an online CDL education platform, responsible for product development, content creation, and platform strategy
+- Built scalable digital learning resources to support student success
+- Applied skills in product planning, user-focused design, digital education tools, and process optimization to create an accessible and efficient learning experience
 
 ### Skills & Interests
 
-**Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
-
-**Soft Skills**
-- Communication and presentation
-- Cross-functional collaboration
-- Strategic thinking and problem-solving
-
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+I bring a strong mix of technical and analytical skills, including Python, R, SQL, data visualization tools, and product management platforms, paired with clear communication, cross-functional collaboration, and strategic problem-solving. Outside of work, I'm driven by entrepreneurship, continuous learning, and building products that create real-world impact.
 
 ### What's Next
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+I'm focused on continuing to grow and scale my businesses by building better systems, improving the customer experience, and using data to guide smarter decisions. I'm especially interested in partnerships, product improvements, and tools that help streamline operations, expand reach, and create long-term, sustainable growth.

@@ -1,0 +1,187 @@
+---
+title: "Problems I'm Exploring"
+---
+
+<style>
+.problem-card {
+  background: #ffffff;
+  border: 1px solid #e8e0e0;
+  border-left: 4px solid #e00000;
+  border-radius: 8px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.75rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.problem-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.problem-card h3 {
+  color: #1A1A1A;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.problem-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: #FDF0F0;
+  color: #e00000;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.problem-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e00000;
+  margin-bottom: 0.75rem;
+}
+
+.problem-why {
+  background: #F9F6F6;
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  margin-top: 0.85rem;
+  font-size: 0.92rem;
+  color: #444;
+  border-left: 3px solid #e00000;
+}
+
+.problem-why strong {
+  color: #1A1A1A;
+}
+
+.intro-section {
+  background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #e00000 100%);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-section::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -8%;
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.intro-section h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.intro-section p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1rem;
+  margin-bottom: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+::: {.intro-section}
+
+## Problems Worth Solving
+
+These are real challenges I encounter as a founder in the CDL training industry. Each one represents an opportunity to build something better.
+
+:::
+
+::: {.problem-card}
+
+<span class="problem-number">1</span>
+<span class="problem-label">Operations & Technology</span>
+
+### Student Progress Tracking in CDL Training
+
+Students and instructors lack real-time visibility into training progress, test scores, and certification status. Without a centralized system, updates happen through phone calls, manual check-ins, and paper records — creating delays, miscommunication, and unnecessary friction for everyone involved.
+
+::: {.problem-why}
+**Why this matters to me:** I run a CDL training school and see this gap firsthand. Students want to know where they stand, and instructors need a faster way to track and communicate progress. A well-designed tracking system could reduce administrative overhead and dramatically improve the student experience — which is exactly why I built the CDL Dashboard.
+:::
+
+:::
+
+::: {.problem-card}
+
+<span class="problem-number">2</span>
+<span class="problem-label">Growth & Operations</span>
+
+### Scaling a Small Training Business Without Losing Quality
+
+As enrollment grows, maintaining the same hands-on, personalized instruction quality becomes harder. Scheduling conflicts increase, instructor bandwidth gets stretched, and operational processes that worked for 10 students start breaking at 50. Growth without systems leads to a diluted experience.
+
+::: {.problem-why}
+**Why this matters to me:** The Trucking School was built on quality instruction, and I refuse to let that slip as we grow. But I've felt the tension between taking on more students and keeping the experience consistent. Solving this means building better scheduling tools, onboarding processes, and operational playbooks that scale without sacrificing what makes the training effective.
+:::
+
+:::
+
+::: {.problem-card}
+
+<span class="problem-number">3</span>
+<span class="problem-label">Education & Compliance</span>
+
+### CDL Curriculum That's Standardized but Not Rigid
+
+Regulatory compliance requires standardized training content, but students come in with different experience levels, learning speeds, and backgrounds. A one-size-fits-all curriculum can leave experienced students bored and new students behind. The challenge is meeting regulatory requirements while still adapting to individual needs.
+
+::: {.problem-why}
+**Why this matters to me:** I've watched students struggle — not because the material is too hard, but because the pacing doesn't match how they learn. Building a curriculum framework that's structured enough to stay compliant but flexible enough to meet each student where they are would make training more effective and improve pass rates.
+:::
+
+:::
+
+::: {.problem-card}
+
+<span class="problem-number">4</span>
+<span class="problem-label">Access & Reach</span>
+
+### Making CDL Education Accessible Online
+
+Most CDL knowledge training still happens exclusively in a physical classroom, even though the theory portion — general knowledge, air brakes, regulations — could be delivered digitally. This limits access for students who live far from training sites, have scheduling constraints, or want to study at their own pace before hands-on instruction begins.
+
+::: {.problem-why}
+**Why this matters to me:** This is why I started CDL Classroom. I believe the knowledge portion of CDL training can reach more people, more efficiently, through digital delivery. Students in rural areas or with full-time jobs shouldn't be excluded from career-changing education because they can't sit in a classroom five days a week. Online access expands the funnel and lets in-person time focus on what actually requires being behind the wheel.
+:::
+
+:::
+
+::: {.problem-card}
+
+<span class="problem-number">5</span>
+<span class="problem-label">Career & Industry</span>
+
+### Connecting CDL Graduates to Employment Opportunities
+
+Students finish training and earn their CDL, but finding the right first job is a separate challenge entirely. Many graduates don't know which carriers are hiring, what to look for in a first employer, or how to evaluate job offers. There's a disconnect between completing a program and confidently starting a trucking career.
+
+::: {.problem-why}
+**Why this matters to me:** Graduation should feel like the beginning, not an uncertain next step. I've seen students work hard to earn their CDL and then struggle to navigate the job market. If the training school could better bridge that gap — through employer partnerships, job placement support, or even a simple resource hub — it would make the entire investment in training more valuable and complete the loop from enrollment to employment.
+:::
+
+:::
