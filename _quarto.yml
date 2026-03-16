@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
   resources:
     - images/**
 
@@ -20,18 +20,10 @@ website:
             text: The Trucking School
           - href: projects/project-1.qmd
             text: CDL Dashboard
+          - href: projects/project-6.qmd
+            text: CDL Scheduler
       - href: problems.qmd
         text: Problems I'm Exploring
-          #- href: projects/project-2.qmd
-          #  text: Business Case Presentation
-          #- href: projects/project-3.qmd
-          #  text: Project 3
-          #- href: projects/project-4.qmd
-          #  text: Project 4
-          #- href: projects/project-5.qmd
-          #  text: Project 5
-          #- href: projects/project-6.qmd
-          #  text: Project 6
 
 format:
   html:

@@ -1,0 +1,332 @@
+/* Custom styles for portfolio website */
+/* Brand colors:
+   Navy:       #1B3D6F
+   Green:      #3E8B50
+   Light Navy: #2A5298
+   Light Green:#E8F5EC
+   Off-white:  #F5F7FA
+*/
+
+/* ── Page background ── */
+body {
+  background: #F5F7FA;
+  color: #1e1e1e;
+}
+
+/* ── Navbar ── */
+.navbar {
+  padding: 0.75rem 0;
+  background-color: #1B3D6F !important;
+  border-bottom: 3px solid #3E8B50;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.navbar .nav-link {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+/* ── Layout ── */
+.quarto-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.quarto-title-banner {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title h1 {
+  text-align: center;
+}
+
+.quarto-title-block .description {
+  text-align: center;
+}
+
+.quarto-title-block .quarto-categories {
+  justify-content: center;
+}
+
+/* ── Hero banner ── */
+.hero-banner {
+  text-align: center;
+  padding: 3.5rem 2rem 3rem;
+  background: linear-gradient(160deg, #1B3D6F 0%, #2A5298 50%, #3E8B50 100%);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border: none;
+  box-shadow: 0 4px 20px rgba(27, 61, 111, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle geometric accent in the hero */
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.hero-banner h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.hero-banner .rounded-circle {
+  border: 3px solid rgba(255,255,255,0.3);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.hero-banner .btn {
+  margin: 0.25rem;
+  text-decoration: none;
+  border-color: rgba(255,255,255,0.6);
+  color: #ffffff;
+  backdrop-filter: blur(4px);
+  background: rgba(255,255,255,0.1);
+  transition: all 0.2s ease;
+}
+
+.hero-banner .btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.2);
+  border-color: #ffffff;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* ── Main content ── */
+main {
+  padding: 2rem 0;
+  line-height: 1.6;
+}
+
+/* ── Section headings ── */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1B3D6F;
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2A5298;
+}
+
+/* ── Cards / project tiles ── */
+.g-col-12.g-col-md-6 {
+  padding: 1.75rem;
+  border: 1px solid #dfe6ed;
+  border-left: 4px solid #3E8B50;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.g-col-12.g-col-md-6:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(27, 61, 111, 0.10);
+}
+
+.g-col-12.g-col-md-6 h3 a {
+  color: #1B3D6F;
+}
+
+.g-col-12.g-col-md-6 h3 a:hover {
+  color: #3E8B50;
+}
+
+/* ── Grid ── */
+.grid {
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* ── Paragraph & list ── */
+p {
+  margin-bottom: 1.2rem;
+}
+
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* ── Skills list ── */
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skills-list li::before {
+  content: "▶";
+  color: #3E8B50;
+  position: absolute;
+  left: 0;
+}
+
+/* ── About page ── */
+.about-contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ── Links ── */
+a {
+  text-decoration: none;
+  color: #2A5298;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #3E8B50;
+  text-decoration: underline;
+}
+
+/* ── Footer ── */
+.nav-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 2px solid #1B3D6F;
+  background: #F5F7FA;
+}
+
+/* ── Code blocks ── */
+pre {
+  background: #ffffff;
+  border: 1px solid #dfe6ed;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+/* ── Tables ── */
+table {
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #dfe6ed;
+  text-align: left;
+}
+
+th {
+  background-color: #1B3D6F;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ── Images ── */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.about-image {
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 0 auto 2rem;
+  display: block;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .quarto-container {
+    padding: 0 15px;
+  }
+
+  .grid {
+    gap: 1rem;
+  }
+
+  .g-col-12.g-col-md-6 {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem 0;
+  }
+
+  .hero-banner {
+    padding: 2.5rem 1.25rem 2rem;
+  }
+
+  .hero-banner h1 {
+    font-size: 2rem;
+  }
+}
