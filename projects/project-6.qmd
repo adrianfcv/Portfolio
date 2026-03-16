@@ -1,33 +1,199 @@
 ---
-title: "Project 6"
-description: "Project description placeholder - replace with your actual project"
-date: "2024-XX-XX"
-image: ../images/project6-preview.jpg
-categories: [Category 1, Category 2, Category 3]
+title: "CDL Scheduler"
+date: "2026-03-15"
+categories: [Next.js, Supabase, Vercel, Claude Code]
 ---
 
-## Project Overview
+<style>
+/* ── CDL Scheduler brand colors ── */
+/* Red: #dc2626  |  Black: #0a0a0a  |  Gray: #f3f4f6  |  White: #FFFFFF */
 
-Replace this content with your actual project details. This is a placeholder template for your sixth project.
+.sched-hero {
+  text-align: center;
+  padding: 3rem 2rem 2.5rem;
+  background: linear-gradient(160deg, #0a0a0a 0%, #1a1a1a 50%, #dc2626 100%);
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
 
-## Challenge
+.sched-hero::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -8%;
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+  pointer-events: none;
+}
 
-Describe the specific challenge or problem you were addressing.
+.sched-hero h1 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
 
-## Approach
+.sched-hero p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
 
-Detail your methodology and approach to solving the problem.
+.sched-hero .sched-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #dc2626;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+}
 
-## Results
+.sched-section {
+  background: #ffffff;
+  border: 1px solid #e8e0e0;
+  border-left: 4px solid #dc2626;
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+}
 
-Present your findings, outcomes, and impact.
+.sched-section h3 {
+  color: #0a0a0a;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
 
-## Skills Demonstrated
+.sched-section li {
+  color: #333;
+}
 
-List the key skills this project showcases.
+.sched-highlight {
+  display: inline-block;
+  background: #FDF0F0;
+  color: #dc2626;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+</style>
+
+::: {.sched-hero}
+
+<div class="sched-icon">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+    <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/>
+  </svg>
+</div>
+
+# CDL Scheduler
+
+<p>Instructor capacity scheduling system for The Trucking School</p>
+
+:::
+
+## Live Product Demo
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://cdl-scheduler.vercel.app/"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
+
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/adrianfcv/CDL-Scheduler"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View Source on GitHub
+  </a>
+</div>
+
+<iframe src="https://cdl-scheduler.vercel.app/"
+        style="width:100%; height:900px; border:none; border-radius:12px;"
+        allowfullscreen>
+</iframe>
+
+## Overview
+
+This project involved using Claude Code to build a full internal scheduling tool for The Trucking School. The CDL Scheduler replaces manual coordination happening across spreadsheets, texts, and phone calls with a single operational dashboard.
+
+The primary purpose of this app is to:
+
+- Give managers real-time visibility into instructor capacity across all shifts
+- Prevent instructor overload by enforcing student assignment limits
+- Replace a complex master spreadsheet with a simple, purpose-built tool
+
+::: {.sched-section}
+
+### The Problem
+
+The Trucking School was managing scheduling manually — across a master Google Sheet, CRM exports, texts, and phone calls. With 4 instructors, 4 daily shifts, and 20–60 active students, the process was fragile and time-consuming. There was no single place to see who was assigned where, which instructors had open capacity, or which students were still waiting to be scheduled.
+
+:::
+
+::: {.sched-section}
+
+### The Solution
+
+The CDL Scheduler addresses this with a purpose-built internal tool featuring:
+
+- <span class="sched-highlight">Dashboard</span> — Weekly shift view (Morning / Afternoon / Evening / Saturday) showing active students per shift
+- <span class="sched-highlight">Instructor Capacity</span> — Real-time load tracking with visual progress bars and shift badges
+- <span class="sched-highlight">Student Assignment</span> — Assign students to instructors with capacity enforcement built in
+- <span class="sched-highlight">Edit & Reassign</span> — Change shift, instructor, or dates for any student at any time
+- <span class="sched-highlight">All Students Roster</span> — Complete history of current and past students with status tracking
+- <span class="sched-highlight">Instructors Page</span> — Add, edit, and delete instructors with open spots and availability at a glance
+
+:::
+
+::: {.sched-section}
+
+### Technical Details
+
+**Framework/Stack:** Next.js 16, React 19, JavaScript, Tailwind CSS v4
+
+**Database:** PostgreSQL via Supabase (instructors, students, assignments tables)
+
+**Deployment:** Vercel (production) + GitHub (source control)
+
+**Design:** The Trucking School brand colors (red #dc2626, jet black), bold typography, responsive grid layout
+
+**Tools Used:**
+
+- Claude Code — AI-assisted development for full-stack build
+- Supabase — PostgreSQL database with Row Level Security
+- Vercel — Production deployment and hosting
+- GitHub — Version control and source code management
+
+:::
+
+## Product Spec
+
+The CDL Scheduler was built from a structured MVP spec focused on one core action:
+
+> *Assign a student to an instructor without exceeding instructor capacity.*
+
+Key decisions made during the build:
+
+- **Shifts** (Morning / Afternoon / Evening / Saturday) added after reviewing the existing master spreadsheet
+- **Start and end dates** on every assignment to support the weekly active view
+- **One assignment per student** enforced at the database level (unique constraint)
+- **Capacity check** runs server-side before every assignment to prevent overload
+- **No auth in MVP** — internal tool, RLS disabled for speed of iteration
 
 ---
 
-**Skills Demonstrated:** [Your skills here]
-
-**Tools Used:** [Your tools here]
+**Role:** Founder & Developer | **Stack:** Next.js + Supabase + Tailwind | **Live App:** [cdl-scheduler.vercel.app](https://cdl-scheduler.vercel.app){target="_blank"}
