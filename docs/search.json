@@ -25,7 +25,7 @@
     "href": "index.html#featured-businesses",
     "title": "Famet Enterprises",
     "section": "Featured Businesses",
-    "text": "Featured Businesses\n\n\nThe Trucking School\nA CDL training business focused on providing hands-on, compliant, and career-ready driver education, helping students gain the skills and confidence needed to enter the trucking industry.\n\n\nCDL Dashboard\nA web-based application deployed on Vercel that supports The Trucking School by streamlining student engagement and showcasing key information through a clean, user-focused interface."
+    "text": "Featured Businesses\n\n\nThe Trucking School\nA CDL training business focused on providing hands-on, compliant, and career-ready driver education, helping students gain the skills and confidence needed to enter the trucking industry.\n\n\nCDL Dashboard\nA web-based application deployed on Vercel that supports The Trucking School by streamlining student engagement and showcasing key information through a clean, user-focused interface.\n\n\nCDL Scheduler\nAn internal instructor capacity scheduling tool built with Next.js and Supabase, replacing manual coordination across spreadsheets and phone calls with a single operational dashboard."
   },
   {
     "objectID": "projects/project-0.html",

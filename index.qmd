@@ -26,4 +26,7 @@ A CDL training business focused on providing hands-on, compliant, and career-rea
 
 ### [CDL Dashboard](projects/project-1.qmd)
 A web-based application deployed on Vercel that supports The Trucking School by streamlining student engagement and showcasing key information through a clean, user-focused interface.
+
+### [CDL Scheduler](projects/project-6.qmd)
+An internal instructor capacity scheduling tool built with Next.js and Supabase, replacing manual coordination across spreadsheets and phone calls with a single operational dashboard.
 :::
